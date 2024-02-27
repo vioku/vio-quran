@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  @apply text-gray-700;
+}
+.ibm {
+  font-family: "Noto Naskh Arabic", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.rhap_container {
+  @apply bg-primary !important;
+  @apply rounded-md;
+  @apply shadow-md;
+}
+.rhap_progress-indicator,
+.rhap_volume-indicator,
+.rhap_progress-filled {
+  @apply bg-white !important;
+}
+.rhap_repeat-button,
+.rhap_main-controls-button,
+.rhap_volume-button,
+.rhap_time {
+  @apply text-white !important;
+}
