@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className='mb-5 -mt-0 border-t border-primary'>
-      <div className='flex flex-col justify-center items-center mt-6 text-gray-500'>
+    <div className='mb-5 -mt-0 border-t border-primary '>
+      <div className='flex flex-col justify-center items-center mt-6 text-gray-500 dark:text-gray-400'>
         <div className='text-md flex items-center gap-x-2'>
           Developed With
           <span className='text-red-500 text-lg'>
